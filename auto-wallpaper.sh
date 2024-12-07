@@ -1,7 +1,9 @@
 #!/bin/bash
 
+user=$(whoami)
+
 # Path to your wallpapers directory (change the name of the files so it can load your wallpapers)
-wallpaper_dir="~/Auto-Wallpaper"
+wallpaper_dir="/home/$user/Auto-Wallpaper"
 
 # Infinite loop to check the time and update the wallpaper every minute
 while true; do
@@ -25,4 +27,3 @@ while true; do
     # Sleep for 60 seconds (1 minute) before checking again
     sleep 60
 done
-
