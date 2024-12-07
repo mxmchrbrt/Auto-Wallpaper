@@ -30,7 +30,7 @@ Auto-Wallpaper is a simple Bash script designed to automatically change your des
    git clone https://github.com/your-username/auto-wallpaper.git
    ```
 
-2. Place your wallpaper images (Night.jpg, Day.jpg, Aprem.jpg, Sunset.jpg) in the specified directory. You can change the directory in the script by modifying the `wallpaper_dir` variable.
+2. You can change the directory in the script by modifying the `wallpaper_dir` variable.
 
 3. Make the script executable:
 
@@ -70,8 +70,6 @@ The script runs in the background and updates the wallpaper every minute.
   
 - **Night**  
   ![Night.jpg](./Night.jpg)
-
-> Note: Replace the above example images with your own in your project folder.
 
 ## Contributing
 
