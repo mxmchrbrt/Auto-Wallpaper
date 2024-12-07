@@ -50,10 +50,10 @@ Auto-Wallpaper is a simple Bash script designed to automatically change your des
 
 Once the script is running, it will check the time every minute and update the wallpaper accordingly:
 
-- From 7:00 PM to 6:00 AM, the wallpaper will be **Night.jpg**.
 - From 6:00 AM to 3:00 PM, the wallpaper will be **Day.jpg**.
 - From 3:00 PM to 6:00 PM, the wallpaper will be **Aprem.jpg**.
 - From 6:00 PM to 7:00 PM, the wallpaper will be **Sunset.jpg**.
+- From 7:00 PM to 6:00 AM, the wallpaper will be **Night.jpg**.
 
 The script runs in the background and updates the wallpaper every minute.
 
