@@ -27,7 +27,7 @@ Auto-Wallpaper is a simple Bash script designed to automatically change your des
 1. Clone or download this repository to your local machine.
    
    ```bash
-   git clone https://github.com/your-username/auto-wallpaper.git
+   git clone https://github.com/mxmchrbrt/Auto-Wallpaper.git
    ```
 
 2. You can change the directory in the script by modifying the `wallpaper_dir` variable.
@@ -35,13 +35,13 @@ Auto-Wallpaper is a simple Bash script designed to automatically change your des
 3. Make the script executable:
 
    ```bash
-   chmod +x ~/auto-wallpaper/auto-wallpaper.sh
+   chmod +x ~/Auto-Wallpaper/auto-wallpaper.sh
    ```
 
 4. Add the script to your X11 startup process (e.g., in your i3 config):
 
    ```bash
-   exec --no-startup-id ~/auto-wallpaper/auto-wallpaper.sh
+   exec --no-startup-id ~/Auto-Wallpaper/auto-wallpaper.sh
    ```
 
 5. Restart your X11 session or reload your window manager configuration.
