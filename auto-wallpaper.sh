@@ -20,7 +20,7 @@ while true; do
     fi
 
     # Set the wallpaper using feh
-    feh --bg-scale "$wallpaper"
+    feh --bg-fill "$wallpaper"
 
     # Sleep for 60 seconds (1 minute) before checking again
     sleep 60
